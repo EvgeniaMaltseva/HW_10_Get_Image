@@ -5,6 +5,7 @@ const CatImage = (props) => {
   const { img, loading, fetchImages } = props;
   return (
     <div className={style.img_container}>
+      <h2>Cats, cats, cats...</h2>
       {loading ? (
         <p>Loading...</p>
       ) : (

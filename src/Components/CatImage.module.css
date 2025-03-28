@@ -18,3 +18,10 @@
   border: none;
   border-radius: 5px;
 }
+.button:hover {
+  background-color: green;
+}
+h2 {
+  font-size: 40px;
+  color: darkblue;
+}
